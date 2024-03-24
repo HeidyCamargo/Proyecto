@@ -10,11 +10,11 @@
 }
 
 :root{
-    --color_text-primary: #309C13;
-    --color_text-secundary: #101E2C;
-    --color_text-tertiary: #155404;
-    --main_color-primary: #155404;
-    --main_color-secundary: #8ada74;
+    --color_text-primary: #7f2691;
+    --color_text-secundary: #16102c;
+    --color_text-tertiary: #300454;
+    --main_color-primary: #3b0454;
+    --main_color-secundary: #ae99df;
     --background-color: #fafbfe;
     --lowText_font_size: 16px;
     --text_size_tittle: 40px;
