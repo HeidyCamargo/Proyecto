@@ -224,62 +224,46 @@ header{
     margin-top: 20px;
 }
 
-.container__cover2{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: #ae99df;
+
+
+.container__about{
+    padding: 100px 0px;
+    background: #d1cae0f1;
+    margin-top: 100px;
 }
 
-.cover2{
+.about{
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    padding: 0px 20px;
     display: flex;
     align-items: center;
-    padding: 0px 20px;
+    justify-content: center;
 }
 
-.text__cover2{
+.text__about{
     width: 100%;
-    padding-right: 150px;
+    padding-right: 40px;
 }
 
-.text__cover2 h1{
-    font-size: 50px;
+.text__about h1{
     color: var(--color_text-secundary);
+    font-weight: 600;
 }
 
-.text__cover2 p{
+.text__about p{
     font-size: var(--text_paragraph);
     margin-top: 40px;
     color: var(--color_text-tertiary);
 }
 
-.btn__text2{
-    display: block;
-    width: 150px;
-    margin-top: 40px;
-    padding: 10px 20px;
-    text-align: center;
-    font-weight: 500;
-    background: var(--main_color-primary);
-    color: white;
-    border-radius: 8px;
-    border: 2px solid transparent;
-    cursor: pointer;
-    transition: all 300ms;
-}
 
-.btn__text2:hover{
-    background: transparent;
-    border: 2px solid var(--main_color-primary);
-    color: var(--color_text-tertiary);
-}
-
-.image__cover2{
+.image__about{
     width: 100%;
-} 
-
-.image__cover2 img{
-    width: 550px;
+    display: flex;
 }
+
+.image__about img{
+    width: 300px;
+}
+
