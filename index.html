@@ -5,11 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page - UFPSO </title>
-
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha384-..." crossorigin="anonymous" />
 
 </head>
 
@@ -119,9 +117,10 @@
         <!--final container generadeor de confianza-->
 
         <!--container sobre nosotros-->
-        <div class="container__about div__offset">
-            <div class="about">
-                <div class="text__about">
+        
+        <div class="container_coverE div_offset">
+            <div class="coverE">
+                <section class="text_coverE">
                     <h1>Historias Tejidas en Cada Mochila</h1>
                     <p>Descubre la magia detrás de nuestras mochilas, donde cada hilo cuenta una historia única.
                         Desde los picos de los Andes hasta las costas del Caribe, nuestras mochilas están impregnadas
@@ -130,12 +129,14 @@
                         portátil.
                         Sumérgete en el mundo de las mochilas colombianas y lleva contigo un pedazo de cultura y
                         aventura a donde quiera que vayas.</p>
-                    <a href="#" class="btn__text-about btn__text">Saber Más</a>
-                </div>
-                <div class="image__about">
-                    <img src="img/2.png" alt="">
-                    <img src="img/3.png" alt="">
-                </div>
+                    <a href="#" class="btn_text-coverE btn_textE">Saber más</a>
+                </section>
+                <section class="img_coverE">
+                    <img src="img/2.png" alt="" width="300px">
+                   <section class="img_coverE2">    
+                    <img src="img/3.png" alt="" width="300px">
+                   </section>
+                </section>
             </div>
         </div>
         <!--final container sobre nosotros -->
@@ -218,244 +219,117 @@
                 <div class="container__card-proyect container__box-cardPrimary">
                     <div class="card__proyect box__card-primary" style="background-image: url('img/4.png');">
                         <h2>Artesanía Hecha a Mano</h2>
-
                     </div>
                     <div class="card__proyect box__card-primary" style="background-image: url('img/5.png');">
                         <h2>Herencia Wayúu en Cada Diseño</h2>
-
+                    </div>
+                    <div class="card__proyect box__card-primary" style="background-image: url('img/mochila1.jpg');">
+                        <h2>Tejidos Colombianos de Calidad</h2>
                     </div>
                     <div class="card__proyect box__card-primary" style="background-image: url('img/6.png');">
-                        <h2>Tejidos Colombianos de Calidad</h2>
-
+                        <h2>Innovación en Cada Puntada</h2>
+                    </div>
+                    <div class="card__proyect box__card-primary" style="background-image: url('img/mochila2.jpg');">
+                        <h2>Materiales Ecológicos</h2>
+                    </div>
+                    <div class="card__proyect box__card-primary" style="background-image: url('img/mochila6.jpg');">
+                        <h2>Colores Vibrantes y Motivos Tradicionales</h2>
                     </div>
                 </div>
             </div>
         </div>
         <!--fianl container proyectos-->
 
-        <!-- container contactar-->
-        <div class="container__about div__offset">
-            <div class="text__service text__card-primary">
-                <p>Contacta con nosotros</p>
-                <h1>Contacta con nosotros para brindarte el mejor servicio</h1>
-            </div>
-            <div class="about">
-                <div class="text__about">
-                    <form action="submit_form.php" method="POST">
-                        <label for="nombre">Nombre:</label><br>
-                        <input type="text" id="nombre" name="nombre" required><br>
-                        <label for="telefono">Número de celular:</label><br>
-                        <input type="tel" id="telefono" name="telefono" required><br>
-                        <label for="email">Correo electrónico:</label><br>
-                        <input type="email" id="email" name="email" required><br>
-                        <label for="mensaje">Mensaje:</label><br>
-                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
-                        <input type="submit" value="Enviar">
-                    </form>
-                    <div class="image__about">
-                        <img src="img/7.png" alt="">
+        <!--container personal-->
 
-                    </div>
+        <div class="team-container">
+            <h3>CONOZCA A NUESTRO EQUIPO</h3>
+            <h4>Gente increíble con grandes habilidades comerciales.</h4>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="img/persona1.jpg" alt="persona 1" width="300px">
+                    <h4>Ana Herrera</h4>
+                    <p>Fundador y jefe ejecutivo</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/persona2.jpg" alt="persona 2" width="300px">
+                    <h4>Paola Camargo</h4>
+                    <p>Directora de operaciones</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/persona3.jpg" alt="persona 3" width="300px">
+                    <h4>Kely Andrade</h4>
+                    <p>Directora de Marketing</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/persona4.jpg" alt="persona 4" >
+                    <h4>Nelson Corredor</h4>
+                    <p>Gerente de ventas</p>
                 </div>
             </div>
-            <!-- final container contactar-->
+        </div>
 
-            <script>
-                function miFuncion() {
-                    var variableLocal = "Soy una variable local";
-                    console.log(variableLocal);
-                }
-                miFuncion(); 
-            </script>
-            <!-- ejercicio -->
-            <script>var globalVar = 10;
+        <!-- final container contactar-->
 
-                function myFunction() {
-                    var localVar = 20;
-                    console.log(globalVar);
-                    console.log(localVar);
-                }
-                myFunction();  
-            </script>
-            <script>
-                function edad() {
-                    let Edad = 2;
-                    let mensaje = (Edad >= 18) ? "eres mayor de edad" : "eres menor de edad";
-                    console.log(mensaje);
-                }
-                edad();
-            </script>
+    <!-- Mapa y Formulario de Contacto -->
+    <section class="contact-section">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31588.066629338206!2d-73.37382009764698!3d8.25209189548848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e677beeab6ce443%3A0x24747bfaf0798150!2sOca%C3%B1a%2C%20Norte%20de%20Santander!5e0!3m2!1ses!2sco!4v1716999216320!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </a>
+        </div>
+        <div class="contact-form">
+            <h2>Hablemos de tu idea</h2>
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Correo Electrónico" required>
+                <input type="text" name="tema" placeholder="Tema" required>
+                <input type="tel" name="telefono" placeholder="Teléfono" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Saber más</button>
+            </form>
+        </div>
+    </section>
 
-            <script>
-                function calc() {
-                    var num1 = 2;
-                    var num2 = 5;
-                    let sum = num1 + num2;
-                    console.log(sum);
-                    let mul = num1 * num2;
-                    console.log(mul);
-                    let mensaje = (num1 > num2) ? "el numero 1 es mayor" : "el numero 2 es mayor";
-                    console.log(mensaje);
-                    var boolVar = true;
-                    var boolVar = boolVar && (num1 > num2);
-                    console.log(boolVar);
-                    var ternaryResult = (num1 > num2) ? "Mayor" : "menor o igual";
-                    console.log(ternaryResult);
-                }
-                calc();
-            </script>
-
-            <script>
-                let persona = { name: "Ete Serch", age: "82", city: "Perú" }
-                console.log(persona.name)
-                var x;
-                let property = persona.age;
-                console.log(property);
-                console.log(typeof name);
-                console.log(typeof x);
-            </script>
-
-            <script>
-                var n = 15;
-                if (n > 0) {
-                    console.log("el numero es positivo")
-                } else if (n < 0) {
-                    console.log("el numero es negativo")
-                } else {
-                    console.log("el numero es 0")
-                }
-            </script>
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section contact">
+                <i class="fa fa-phone"></i>
+                <p>Call +57 123456789</p>
+            </div>
+            <div class="footer-section email">
+                <i class="fa fa-envelope"></i>
+                <p>hpcamargoa@ufpso.edu.co</p>
+            </div>
+            <div class="footer-section location">
+                <i class="fa fa-map-marker"></i>
+                <p>Ubicacion</p>
+            </div>
+        </div>
+    
+        <div class="footer-container">
+            <div class="footer-section work-portfolio">
+                <h4>Sobre nosotros</h4>
+                <p>Nos dedicamos a ofrecer mochilas de alta calidad diseñadas para satisfacer las necesidades de nuestros clientes, combinando funcionalidad y estilo.</p>
+            </div>
+            <div class="footer-section newsletter">
+                <h4>Envianos tu correo para ponernos en contacto contigo</h4>
+                <form>
+                    <input type="email" placeholder="Enter Your Email">
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mochilas S.A.S. Todos los derechos reservados. Diseñado por HTML5 y CSS3DESIGN.</p>
+        </div>
+    </footer>
+</body>
+</html>
 
 
-            <script>
-                var horas = 20;
-                var salario = 1000;
-                var bonus = 1.5;
-                var salariof = 0;
-                salario = horas * salario;
-                if (horas < 0) {
-                    let mensaje = "no ponga numeros negativos mi compa!!!"
-                    console.log(mensaje);
-                }
-                mensaje1 = "su salario es= "
-                console.log(mensaje1 + salario)
-
-                if (horas > 40) {
-                    salariof = salario * bonus;
-                    mensaje1 = "su salario es= "
-                    console.log(mensaje1 + salariof)
-                }
-
-                /* var mes = prompt("digite un mes", "")
-                switch (mes) {
-                    case "enero":
-                        console.log(" Es enero.");
-                        break;
-                    case "febrero":
-                        console.log("Es febrero.");
-                        break;
-                    case "marzo":
-                        console.log("Hoy es miércoles.");
-                        break;
-                    case "abril":
-                        console.log("Hoy es jueves.");
-                        break;
-                    case "mayo":
-                        console.log("Hoy es viernes.");
-                        break;
-                    case "junio":
-                        console.log("Hoy es sábado.");
-                        break;
-                    case "julio":
-                        console.log("Hoy es domingo.");
-                        break;
-                    case "agosto":
-                        console.log("Hoy es domingo.");
-                        break;
-                    case "septiembre":
-                        console.log("Hoy es domingo.");
-                        break;
-                    case "octubre":
-                        console.log("Hoy es domingo.");
-                        break;
-                    case "noviembre":
-                        console.log("Hoy es domingo.");
-                        break;
-                    case "diciembre":
-                        console.log("Hoy es domingo.");
-                        break;
-                    default:
-                        console.log("No es un día válido.");
-                }*/
-
-                for (let i = 1; i <= 10; i++) {
-                    console.log(i);
-                    if (i === 5) {
-                        console.log("¡Se alcanzó el número 5!");
-                        break;
-                    }
-                }
-
-                for (let i = 1; i <= 10; i++) {
-                    if (i % 2 === 0) {
-                        continue;
-                    }
-                    console.log(i);
-                }
-
-
-                /*var n = parseInt(prompt("Ingresa un número:"));
-                let sum = 0;
-                let i = 1;
-
-                dowhile(i <= n) {
-                    sum += i;
-                    i++;
-                }
-
-                console.log("La suma de los primeros " + n + " números naturales es: " + sum);
-                */
-
-
-                var n = parseInt(prompt("Ingresa un número:"));
-                var factorial = 1;
-                var i = 1;
-
-                do {
-                    factorial *= i;
-                    i++;
-                } while (i <= n);
-
-                console.log("El factorial de " + n + " es: " + factorial);
-
-
-                let pares = 0;
-                let impares = 0;
-
-                for (let i = 1; i <= 50; i++) {
-                    if (i % 2 === 0) {
-                        pares++;
-                    } else {
-                        impares++;
-                    }
-                }
-
-                console.log("Cantidad de números pares: " + pares);
-                console.log("Cantidad de números impares: " + impares);
-
-
-
-
-
-            </script>
-
-
-
-
-
-
-
-
+        
     </main>
 
 </body>
