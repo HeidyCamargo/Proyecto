@@ -199,9 +199,11 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
+    padding: 100px 0px;
 }
 
 .box__card-primary {
+    background-color:#fafbfeec;
     max-width: 350px;
     padding: 60px 40px;
     border: 1px solid #e6e6e6;
@@ -474,6 +476,32 @@ footer {
 .footer-section h4 {
     font-size: 1.5em;
     margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.footer-section p,
+.footer-section ul {
+    font-size: 1em;
+    color: #bbb;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
     color: #fff;
 }
 

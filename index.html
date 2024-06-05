@@ -25,11 +25,11 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Plans</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#inicio">Home</a></li>
+                        <li><a href="#acerca">About</a></li>
+                        <li><a href="#servicios">Services</a></li>
+                        <li><a href="#proyectos">Plans</a></li>
+                        <li><a href="#contactanos">Contact</a></li>
                     </ul>
                 </nav>
 
@@ -59,7 +59,7 @@
     <main>
 
         <!--container portada inicio-->
-        <div class="container_cover div_offset">
+        <div class="container_cover div_offset" id="inicio">
             <div class="cover">
                 <section class="text__cover">
                     <h1>Descubre la artesanía única de Colombia con nuestras mochilas. Cada hilo cuenta una historia,
@@ -82,8 +82,8 @@
         </div>
         <!--final container menu-->
 
-        <!--container generador de comfianza-->
-        <div class="container__trust container__card-primary">
+        <!--container generador de confianza-->
+        <div class="container__trust container__card-primary" id="generador">
             <div class="trust card__primary">
                 <div class="text__trust text__card-primary">
                     <p>Confía en la Calidad desde el Primer Toque</p>
@@ -117,9 +117,9 @@
         <!--final container generadeor de confianza-->
 
         <!--container sobre nosotros-->
-        
+
         <div class="container_coverE div_offset">
-            <div class="coverE">
+            <div class="coverE" id="acerca">
                 <section class="text_coverE">
                     <h1>Historias Tejidas en Cada Mochila</h1>
                     <p>Descubre la magia detrás de nuestras mochilas, donde cada hilo cuenta una historia única.
@@ -133,16 +133,16 @@
                 </section>
                 <section class="img_coverE">
                     <img src="img/2.png" alt="" width="300px">
-                   <section class="img_coverE2">    
-                    <img src="img/3.png" alt="" width="300px">
-                   </section>
+                    <section class="img_coverE2">
+                        <img src="img/3.png" alt="" width="300px">
+                    </section>
                 </section>
             </div>
         </div>
         <!--final container sobre nosotros -->
 
         <!--container servicios-->
-        <div class="container__service container__card-primary div__offset">
+        <div class="container__service container__card-primary div__offset " id="servicios">
             <div class="service card__primary">
                 <div class="text__service text__card-primary">
                     <p>NUESTRA MISIÓN</p>
@@ -210,7 +210,7 @@
         <!--final container servicios-->
 
         <!--container proyectos-->
-        <div class="container__proyect div__offset">
+        <div class="container__proyect div__offset" id="proyectos">
             <div class="service card__primary">
                 <div class="text__service text__card-primary">
                     <p>Confía en la Calidad desde el Primer Toque</p>
@@ -242,7 +242,7 @@
 
         <!--container personal-->
 
-        <div class="team-container">
+        <div class="team-container" id="equipo">
             <h3>CONOZCA A NUESTRO EQUIPO</h3>
             <h4>Gente increíble con grandes habilidades comerciales.</h4>
             <div class="team-members">
@@ -262,7 +262,7 @@
                     <p>Directora de Marketing</p>
                 </div>
                 <div class="team-member">
-                    <img src="img/persona4.jpg" alt="persona 4" >
+                    <img src="img/persona4.jpg" alt="persona 4">
                     <h4>Nelson Corredor</h4>
                     <p>Gerente de ventas</p>
                 </div>
@@ -271,65 +271,73 @@
 
         <!-- final container contactar-->
 
-    <!-- Mapa y Formulario de Contacto -->
-    <section class="contact-section">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31588.066629338206!2d-73.37382009764698!3d8.25209189548848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e677beeab6ce443%3A0x24747bfaf0798150!2sOca%C3%B1a%2C%20Norte%20de%20Santander!5e0!3m2!1ses!2sco!4v1716999216320!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </a>
-        </div>
-        <div class="contact-form">
-            <h2>Hablemos de tu idea</h2>
-            <form>
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <input type="email" name="correo" placeholder="Correo Electrónico" required>
-                <input type="text" name="tema" placeholder="Tema" required>
-                <input type="tel" name="telefono" placeholder="Teléfono" required>
-                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-                <button type="submit">Saber más</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Pie de Página -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-section contact">
-                <i class="fa fa-phone"></i>
-                <p>Call +57 123456789</p>
+        <!-- Mapa y Formulario de Contacto -->
+        <section class="contact-section" id="contactanos">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31588.066629338206!2d-73.37382009764698!3d8.25209189548848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e677beeab6ce443%3A0x24747bfaf0798150!2sOca%C3%B1a%2C%20Norte%20de%20Santander!5e0!3m2!1ses!2sco!4v1716999216320!5m2!1ses!2sco"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
             </div>
-            <div class="footer-section email">
-                <i class="fa fa-envelope"></i>
-                <p>hpcamargoa@ufpso.edu.co</p>
-            </div>
-            <div class="footer-section location">
-                <i class="fa fa-map-marker"></i>
-                <p>Ubicacion</p>
-            </div>
-        </div>
-    
-        <div class="footer-container">
-            <div class="footer-section work-portfolio">
-                <h4>Sobre nosotros</h4>
-                <p>Nos dedicamos a ofrecer mochilas de alta calidad diseñadas para satisfacer las necesidades de nuestros clientes, combinando funcionalidad y estilo.</p>
-            </div>
-            <div class="footer-section newsletter">
-                <h4>Envianos tu correo para ponernos en contacto contigo</h4>
+            <div class="contact-form">
+                <h2>Hablemos de tu idea</h2>
                 <form>
-                    <input type="email" placeholder="Enter Your Email">
-                    <button type="submit">ENVIAR</button>
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="correo" placeholder="Correo Electrónico" required>
+                    <input type="text" name="tema" placeholder="Tema" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono" required>
+                    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Saber más</button>
                 </form>
             </div>
-        </div>
-    
-        <div class="footer-bottom">
-            <p>&copy; 2024 Mochilas S.A.S. Todos los derechos reservados. Diseñado por HTML5 y CSS3DESIGN.</p>
-        </div>
-    </footer>
-</body>
-</html>
+        </section>
 
-
-        
+        <!-- Pie de Página -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section contact">
+                    <span class="fa fa-phone"></span>
+                    <p>Call +57 123456789</p>
+                </div>
+                <div class="footer-section email">
+                    <span class="fa fa-envelope"></span>
+                    <p>hpcamargoa@ufpso.edu.co</p>
+                </div>
+                <div class="footer-section location">
+                    <span class="fa fa-map-marker"></span>
+                    <p>Ubicación</p>
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="footer-section quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#generador">Generador de confianza</a></li>
+                        <li><a href="#acerca">Acerca de nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#equipo">Nuestro equipo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section about">
+                    <h4>Sobre nosotros</h4>
+                    <p>Nos dedicamos a ofrecer mochilas de alta calidad diseñadas para satisfacer las necesidades de
+                        nuestros clientes, combinando funcionalidad y estilo.</p>
+                </div>
+                <div class="footer-section newsletter">
+                    <h4>Envíanos tu correo para ponernos en contacto contigo</h4>
+                    <form action="#">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button type="submit">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Mochilas S.A.S. Todos los derechos reservados. Diseñado por HTML5 y CSS3DESIGN.</p>
+            </div>
+        </footer>
     </main>
 
 </body>
